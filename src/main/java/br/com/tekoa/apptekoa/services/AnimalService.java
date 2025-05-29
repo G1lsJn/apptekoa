@@ -10,8 +10,4 @@ public class AnimalService {
 
     @Autowired
     private AnimalRepository animalRepository;
-
-    public Iterable<Animal> findAll(){
-
-    }
 }
