@@ -14,7 +14,7 @@ public class ResponsavelService {
     @Autowired
     private ResponsavelRepository responsavelRepository;
 
-    public List<Responsavel> listarResponsaveis() {
+    public List<Responsavel> listarTodos() {
         return responsavelRepository.findAll();
     }
 

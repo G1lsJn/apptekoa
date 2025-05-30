@@ -14,7 +14,7 @@ public class ResgateService {
     @Autowired
     private ResgateRepository resgateRepository;
 
-    public List<Resgate> listarResgates() {
+    public List<Resgate> listarTodos() {
         return resgateRepository.findAll();
     }
 
