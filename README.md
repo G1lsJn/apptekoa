@@ -2,6 +2,10 @@
 
 Sistema Inteligente de Resgate e Remanejamento de Fauna Silvestre em Áreas de Queimada
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f4a29f65-c4be-456c-b126-f69fae061c4f" width="250px" />
+</div>
+    
 <br>
 
 ## 📌 Descrição do problema
