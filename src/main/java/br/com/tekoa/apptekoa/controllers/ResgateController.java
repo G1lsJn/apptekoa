@@ -42,4 +42,9 @@ public class ResgateController {
         return ResponseEntity.noContent().build();
     }
 
+    @GetMapping("/status")
+    public List<Resgate> listarPorStatus(@RequestParam String status) {
+        return resgateService.listarPorStatus(status);
+    }
+
 }

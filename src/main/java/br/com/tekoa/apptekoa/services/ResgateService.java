@@ -37,4 +37,9 @@ public class ResgateService {
         return resgateRepository.save(resgate);
     }
 
+    public List<Resgate> listarPorStatus(String status) {
+        return resgateRepository.findByStatusAtual(status);
+    }
+
+
 }
