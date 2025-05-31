@@ -48,4 +48,10 @@ public class Resgate {
     @ManyToOne(optional = false)
     @JoinColumn(name = "responsavel_id", nullable = false)
     private Responsavel responsavel;
+
+    @NotNull(message = "O Centro de Atendimento é obrigatório.")
+    @ManyToOne
+    @JoinColumn(name = "centro_atendimento_id")
+    private CentroAtendimento centroAtendimento;
+
 }

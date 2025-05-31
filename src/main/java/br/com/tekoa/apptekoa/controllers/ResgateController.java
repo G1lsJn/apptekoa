@@ -1,5 +1,6 @@
 package br.com.tekoa.apptekoa.controllers;
 
+import br.com.tekoa.apptekoa.entities.CentroAtendimento;
 import br.com.tekoa.apptekoa.entities.Resgate;
 import br.com.tekoa.apptekoa.services.ResgateService;
 import jakarta.validation.Valid;
@@ -40,6 +41,13 @@ public class ResgateController {
     @GetMapping("/status")
     public List<Resgate> listarPorStatus(@RequestParam String status) {
         return resgateService.listarPorStatus(status);
+    }
+
+    @PutMapping("/{id}/centro")
+    public ResponseEntity<Resgate> atualizarCentroAtendimento(
+            @PathVariable int id,
+            @RequestBody CentroAtendimento centro) {
+        return ResponseEntity.ok(resgateService.atualizarCentroAtendimento(id, centro));
     }
 
 }

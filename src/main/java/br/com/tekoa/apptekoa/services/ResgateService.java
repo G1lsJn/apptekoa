@@ -1,5 +1,6 @@
 package br.com.tekoa.apptekoa.services;
 
+import br.com.tekoa.apptekoa.entities.CentroAtendimento;
 import br.com.tekoa.apptekoa.entities.Resgate;
 import br.com.tekoa.apptekoa.repositories.ResgateRepository;
 import jakarta.persistence.EntityNotFoundException;
@@ -34,6 +35,13 @@ public class ResgateService {
     public List<Resgate> listarPorStatus(String status) {
         return resgateRepository.findByStatusAtual(status);
     }
+
+    public Resgate atualizarCentroAtendimento(int idResgate, CentroAtendimento centro) {
+        Resgate resgate = buscarPorId(idResgate);
+        resgate.setCentroAtendimento(centro);
+        return resgateRepository.save(resgate);
+    }
+
 
 
 }
