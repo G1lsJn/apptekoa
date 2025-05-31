@@ -20,7 +20,6 @@ public class Resgate {
     @Column(name = "ID_RESGATE")
     private int id;
 
-
     @NotNull(message = "A data e hora do resgate são obrigatórias.")
     @Column(name = "data_hora", nullable = false)
     private LocalDateTime dataHora;

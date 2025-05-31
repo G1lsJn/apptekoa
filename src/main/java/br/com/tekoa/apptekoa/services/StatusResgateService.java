@@ -31,4 +31,9 @@ public class StatusResgateService {
         statusResgateRepository.deleteById(id);
     }
 
+    public List<StatusResgate> listarPorResgate(Integer resgateId) {
+        return statusResgateRepository.findByResgateIdOrderByDataHoraAsc(resgateId);
+    }
+
+
 }

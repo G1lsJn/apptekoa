@@ -31,12 +31,6 @@ public class ResgateService {
         resgateRepository.deleteById(id);
     }
 
-    public Resgate atualizarStatus(int id, String novoStatus) {
-        Resgate resgate = buscarPorId(id);
-        resgate.setStatusAtual(novoStatus);
-        return resgateRepository.save(resgate);
-    }
-
     public List<Resgate> listarPorStatus(String status) {
         return resgateRepository.findByStatusAtual(status);
     }

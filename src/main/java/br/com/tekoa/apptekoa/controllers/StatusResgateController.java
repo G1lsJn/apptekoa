@@ -36,4 +36,10 @@ public class StatusResgateController {
         statusResgateService.excluir(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/resgate/{resgateId}")
+    public List<StatusResgate> listarPorResgate(@PathVariable int resgateId) {
+        return statusResgateService.listarPorResgate(resgateId);
+    }
+
 }

@@ -31,11 +31,6 @@ public class ResgateController {
         return ResponseEntity.ok(resgateService.salvar(resgate));
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<Resgate> atualizarStatus(@PathVariable int id, @RequestBody Resgate resgate) {
-        return ResponseEntity.ok(resgateService.atualizarStatus(id, resgate.getStatusAtual()));
-    }
-
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> excluir(@PathVariable int id) {
         resgateService.excluir(id);
