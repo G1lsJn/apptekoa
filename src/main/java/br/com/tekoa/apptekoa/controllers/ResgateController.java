@@ -50,4 +50,9 @@ public class ResgateController {
         return ResponseEntity.ok(resgateService.atualizarCentroAtendimento(id, centro));
     }
 
+    @GetMapping("/centro/{centroId}")
+    public List<Resgate> listarPorCentro(@PathVariable Integer centroId) {
+        return resgateService.listarPorCentroAtendimento(centroId);
+    }
+
 }

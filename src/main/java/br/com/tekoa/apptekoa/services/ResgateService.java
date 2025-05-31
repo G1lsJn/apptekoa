@@ -42,6 +42,8 @@ public class ResgateService {
         return resgateRepository.save(resgate);
     }
 
-
+    public List<Resgate> listarPorCentroAtendimento(int centroId) {
+        return resgateRepository.findByCentroAtendimentoId(centroId);
+    }
 
 }

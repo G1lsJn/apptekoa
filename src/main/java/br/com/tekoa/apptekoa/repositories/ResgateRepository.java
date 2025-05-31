@@ -10,5 +10,6 @@ import java.util.List;
 public interface ResgateRepository extends JpaRepository<Resgate, Integer> {
 
     List<Resgate> findByStatusAtual(String statusAtual);
+    List<Resgate> findByCentroAtendimentoId(int centroId);
 
 }
