@@ -52,11 +52,11 @@ Entre os principais recursos da plataforma, destacam-se:
   
   🩺 Classificação clínica do animal com base na gravidade dos ferimentos;
   
-  🧠 Encaminhamento ao centro de atendimento mais próximo e capacitado;
+  🧠 Encaminhamento ao centro de atendimento;
   
   📚 Histórico completo da ocorrência, desde o resgate até a soltura;
   
-  🐾 Integração com centros veterinários e suporte à gestão de capacidade.
+  🐾 Integração com centros veterinários.
 
 A proposta do Tekoá é tornar o processo mais rápido, preciso e humano, garantindo que os animais sejam atendidos no lugar certo, no tempo certo, e com isso, aumentar a taxa de sobrevivência, reduzir o desperdício de recursos e apoiar a regeneração dos ecossistemas naturais.
 
