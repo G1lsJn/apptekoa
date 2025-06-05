@@ -4,7 +4,7 @@ Sistema Inteligente de Resgate e Remanejamento de Fauna Silvestre em Áreas de Q
 
 <img src="https://github.com/user-attachments/assets/1cf61aa8-2595-4f7b-8aea-95e92852239f"/>
 
-🎥 Confira o vídeo explicativo do projeto Tekoá: link
+🎥 Confira o vídeo explicativo do projeto Tekoá: https://youtu.be/HodtSdvxjYQ?si=rK3L-Qrf3q1jQZEW
 
 <br>
 
