@@ -1,11 +1,11 @@
 # 🐾 APP TEKOÁ
 
-Sistema Inteligente de Resgate e Remanejamento de Fauna Silvestre em Áreas de Queimada
+Sistema Inteligente de Resgate e Remanejamento de Fauna Silvestre em Áreas de Queimada.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/f4a29f65-c4be-456c-b126-f69fae061c4f" width="250px" />
-</div>
-    
+<img src="https://github.com/user-attachments/assets/1cf61aa8-2595-4f7b-8aea-95e92852239f"/>
+
+🎥 Confira o vídeo explicativo do projeto Tekoá: link
+
 <br>
 
 ## 📌 Descrição do problema
@@ -22,6 +22,45 @@ A **TEKOÁ** foi desenvolvido como uma solução integrada para **registrar, aco
 
 <br>
 
+## ✨ Sobre o nome Tekoá
+
+<br>
+
+O nome do projeto, Tekoá, é inspirado na palavra de origem Guarani que representa muito mais do que um território.
+Tekoá é o espaço sagrado onde a vida acontece, onde a comunidade floresce em equilíbrio com a natureza.
+É também a expressão do modo de ser dos povos originários, sua cultura, leis, espiritualidade e relação profunda com a terra e os seres vivos.
+
+Ao adotar esse nome, o projeto reafirma seu propósito:
+usar a tecnologia como uma ferramenta de preservação, respeito e reconexão com a natureza, protegendo a fauna silvestre e promovendo a regeneração dos ecossistemas afetados pelas queimadas.
+
+Tekoá simboliza nossa missão de garantir que todas as formas de vida continuem a existir e prosperar em harmonia com o meio ambiente.
+
+<br>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f4a29f65-c4be-456c-b126-f69fae061c4f" width="250px" />
+</div>
+    
+<br>
+
+## 🛠️ Nossa solução
+O Tekoá é uma plataforma digital desenvolvida para organizar e otimizar todo o processo de resgate, atendimento e reintrodução de animais silvestres afetados por queimadas.
+Por meio de uma API inteligente construída em Java com Spring Boot, a solução conecta voluntários, brigadistas, centros de atendimento e órgãos ambientais em um ecossistema integrado, ágil e eficiente.
+Entre os principais recursos da plataforma, destacam-se:
+
+  📍 Geolocalização para registrar o local do resgate;
+  
+  🩺 Classificação clínica do animal com base na gravidade dos ferimentos;
+  
+  🧠 Encaminhamento ao centro de atendimento mais próximo e capacitado;
+  
+  📚 Histórico completo da ocorrência, desde o resgate até a soltura;
+  
+  🐾 Integração com centros veterinários e suporte à gestão de capacidade.
+
+A proposta do Tekoá é tornar o processo mais rápido, preciso e humano, garantindo que os animais sejam atendidos no lugar certo, no tempo certo, e com isso, aumentar a taxa de sobrevivência, reduzir o desperdício de recursos e apoiar a regeneração dos ecossistemas naturais.
+
+<br>
 
 ## 🏗️ Visão geral da arquitetura
 
